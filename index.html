@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Homework2</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <script src="https://kit.fontawesome.com/aaf43d3442.js" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form id="searchingForm" class="form">
+            <input type="search" id="city-search" placeholder="Search City" />
+            <button type="submit">
+                Search
+            </button>
+        </form>
+        <div class="row">
+            <div class="col-6">
+                <h1 id="heading">
+                    San Antonio
+                </h1>
+            </div>
+            <div class="col-6">
+                <h2>
+                    Friday
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <h3 id="temp">
+                    <span id="currentTemp">32</span>&#176C
+                </h3>
+            </div>
+            <div class="col-6">
+                <h3 id="time">
+                    4:00 P.M.
+                </h3>
+            </div>
+        </div>
+        <i class="fas fa-cloud"></i>
+
+        <div id="fivedays" class="row">
+            <div class="col-2">
+                <h4>
+                    Saturday
+                </h4>
+                <p>
+                    28&#176
+                </p>
+                <i class="fas fa-cloud-sun"></i>
+            </div>
+            <div class="col-2">
+                <h4>
+                    Sunday
+                </h4>
+                <p>
+                    29&#176
+                </p>
+                <i class="fas fa-sun"></i>
+            </div>
+            <div class="col-2">
+                <h4>
+                    Monday
+                </h4>
+                <p>
+                    31&#176
+                </p>
+                <i class="fas fa-cloud-sun"></i>
+            </div>
+            <div class="col-2">
+                <h4>
+                    Tuesday
+                </h4>
+                <p>
+                    29&#176
+                </p>
+                <i class="fas fa-cloud-showers-heavy"></i>
+            </div>
+            <div class="col-2">
+                <h4>
+                    Wednesday
+                </h4>
+                <p>
+                    32&#176
+                </p>
+                <i class="fas fa-cloud-showers-heavy"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="src/index.js"></script>
+</body>
+
+</html>
